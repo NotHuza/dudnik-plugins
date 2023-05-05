@@ -1,0 +1,1 @@
+(function(e,n,a){"use strict";let o=n.findByProps("getAnimatableSourceWithFallback"),t;var i={onLoad:function(){t=a.before("getAnimatableSourceWithFallback",o,function(u){u[0]=!1})},onUnload:function(){t()}};return e.default=i,Object.defineProperty(e,"__esModule",{value:!0}),e})({},vendetta.metro,vendetta.patcher);
