@@ -1,0 +1,14 @@
+{
+  "name": "No Animate Avatars",
+  "description": "All avatars will be not animate.",
+  "authors": [
+    {
+      "name": "NotHuza",
+      "id": "YOUR_ID_HERE"
+    }
+  ],
+  "main": "src/index.ts",
+  "vendetta": {
+    "icon": "ic_badge_staff"
+  }
+}
