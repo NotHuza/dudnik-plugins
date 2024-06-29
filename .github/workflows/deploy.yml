@@ -16,7 +16,8 @@ jobs:
             - name: Prepare environment
               uses: actions/setup-node@v3
               with:
-                  node-version: "16"
+                  node-version: "22"
+                  #put last node version
 
             - run: npm install --global pnpm
 
