@@ -1,4 +1,3 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createFileBackend, createMMKVBackend } from "@vendetta/storage";
 import { plugins } from "@vendetta/plugins";
 import { themes } from "@vendetta/themes";
