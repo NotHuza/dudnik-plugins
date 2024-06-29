@@ -109,10 +109,7 @@ export async function importData() {
       );
     }
 
-    console.log(
-      `Finished! Imported ${status.plugins} plugins and ${status.themes} themes. ${status.failed ? `Failed to import ${status.failed} plugins/themes` : "All imports were successful"}`
-    );
   } catch (error) {
-    console.error("Error reading or parsing the save file:", error);
+  
   }
 }
